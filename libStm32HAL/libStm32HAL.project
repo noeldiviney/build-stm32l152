@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Project Name="libStm32HAL" InternalType="Embedded Library STMicro L1">
+  <Plugins>
+    <Plugin Name="qmake">
+      <![CDATA[00010001N0005Debug000000000000]]>
+    </Plugin>
+    <Plugin Name="CMakePlugin">
+      <![CDATA[[{
+  "name": "Debug",
+  "enabled": false,
+  "buildDirectory": "build",
+  "sourceDirectory": "$(ProjectPath)",
+  "generator": "",
+  "buildType": "",
+  "arguments": [],
+  "parentProject": ""
+ }]]]>
+    </Plugin>
+  </Plugins>
+  <Description/>
+  <Dependencies/>
+  <VirtualDirectory Name="CMSIS_Device">
+    <VirtualDirectory Name="inc">
+      <File Name="../../Drivers/CMSIS/Device/ST/STM32L1xx/Include/stm32l1xx.h"/>
+      <File Name="../../Drivers/CMSIS/Device/ST/STM32L1xx/Include/stm32l100xb.h"/>
+      <File Name="../../Drivers/CMSIS/Device/ST/STM32L1xx/Include/stm32l100xba.h"/>
+      <File Name="../../Drivers/CMSIS/Device/ST/STM32L1xx/Include/stm32l100xc.h"/>
+      <File Name="../../Drivers/CMSIS/Device/ST/STM32L1xx/Include/stm32l151xb.h"/>
+      <File Name="../../Drivers/CMSIS/Device/ST/STM32L1xx/Include/stm32l151xba.h"/>
+      <File Name="../../Drivers/CMSIS/Device/ST/STM32L1xx/Include/stm32l151xc.h"/>
+      <File Name="../../Drivers/CMSIS/Device/ST/STM32L1xx/Include/stm32l151xca.h"/>
+      <File Name="../../Drivers/CMSIS/Device/ST/STM32L1xx/Include/stm32l151xd.h"/>
+      <File Name="../../Drivers/CMSIS/Device/ST/STM32L1xx/Include/stm32l151xdx.h"/>
+      <File Name="../../Drivers/CMSIS/Device/ST/STM32L1xx/Include/stm32l151xe.h"/>
+      <File Name="../../Drivers/CMSIS/Device/ST/STM32L1xx/Include/stm32l152xb.h"/>
+      <File Name="../../Drivers/CMSIS/Device/ST/STM32L1xx/Include/stm32l152xba.h"/>
+      <File Name="../../Drivers/CMSIS/Device/ST/STM32L1xx/Include/stm32l152xc.h"/>
+      <File Name="../../Drivers/CMSIS/Device/ST/STM32L1xx/Include/stm32l152xca.h"/>
+      <File Name="../../Drivers/CMSIS/Device/ST/STM32L1xx/Include/stm32l152xd.h"/>
+      <File Name="../../Drivers/CMSIS/Device/ST/STM32L1xx/Include/stm32l152xdx.h"/>
+      <File Name="../../Drivers/CMSIS/Device/ST/STM32L1xx/Include/stm32l152xe.h"/>
+      <File Name="../../Drivers/CMSIS/Device/ST/STM32L1xx/Include/stm32l162xc.h"/>
+      <File Name="../../Drivers/CMSIS/Device/ST/STM32L1xx/Include/stm32l162xca.h"/>
+      <File Name="../../Drivers/CMSIS/Device/ST/STM32L1xx/Include/stm32l162xd.h"/>
+      <File Name="../../Drivers/CMSIS/Device/ST/STM32L1xx/Include/stm32l162xdx.h"/>
+      <File Name="../../Drivers/CMSIS/Device/ST/STM32L1xx/Include/stm32l162xe.h"/>
+      <File Name="../../Drivers/CMSIS/Device/ST/STM32L1xx/Include/system_stm32l1xx.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="src">
+      <File Name="../../Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/system_stm32l1xx.c"/>
+      <File Name="../../Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/gcc/startup_stm32l152xe.s"/>
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <VirtualDirectory Name="CMSIS_Core">
+    <VirtualDirectory Name="inc">
+      <File Name="../../Drivers/CMSIS/Include/arm_common_tables.h"/>
+      <File Name="../../Drivers/CMSIS/Include/arm_const_structs.h"/>
+      <File Name="../../Drivers/CMSIS/Include/arm_math.h"/>
+      <File Name="../../Drivers/CMSIS/Include/core_cm0.h"/>
+      <File Name="../../Drivers/CMSIS/Include/core_cm0plus.h"/>
+      <File Name="../../Drivers/CMSIS/Include/core_cm3.h"/>
+      <File Name="../../Drivers/CMSIS/Include/core_cm4.h"/>
+      <File Name="../../Drivers/CMSIS/Include/core_cm7.h"/>
+      <File Name="../../Drivers/CMSIS/Include/core_cmFunc.h"/>
+      <File Name="../../Drivers/CMSIS/Include/core_cmInstr.h"/>
+      <File Name="../../Drivers/CMSIS/Include/core_cmSimd.h"/>
+      <File Name="../../Drivers/CMSIS/Include/core_sc000.h"/>
+      <File Name="../../Drivers/CMSIS/Include/core_sc300.h"/>
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <VirtualDirectory Name="HAL_Driver">
+    <VirtualDirectory Name="legacy_inc">
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="src">
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal.c"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_adc.c"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_adc_ex.c"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_comp.c"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_cortex.c"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_crc.c"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_cryp.c"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_cryp_ex.c"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_dac.c"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_dac_ex.c"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_dma.c"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_flash.c"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_flash_ex.c"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_flash_ramfunc.c"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_gpio.c"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_i2c.c"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_i2s.c"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_irda.c"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_iwdg.c"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_lcd.c"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_msp_template.c"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_nor.c"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_opamp.c"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_opamp_ex.c"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_pcd.c"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_pcd_ex.c"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_pwr.c"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_pwr_ex.c"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rcc.c"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rcc_ex.c"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rtc.c"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rtc_ex.c"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_sd.c"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_smartcard.c"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_spi.c"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_spi_ex.c"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_sram.c"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_tim.c"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_tim_ex.c"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_uart.c"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_usart.c"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_wwdg.c"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_ll_fsmc.c"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_ll_sdmmc.c"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="inc">
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal.h"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_adc.h"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_adc_ex.h"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_comp.h"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_comp_ex.h"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_conf_template.h"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_cortex.h"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_crc.h"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_cryp.h"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_cryp_ex.h"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_dac.h"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_dac_ex.h"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_def.h"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_dma.h"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_dma_ex.h"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_flash.h"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_flash_ex.h"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_flash_ramfunc.h"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_gpio.h"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_gpio_ex.h"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_i2c.h"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_i2s.h"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_irda.h"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_iwdg.h"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_lcd.h"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_nor.h"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_opamp.h"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_opamp_ex.h"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_pcd.h"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_pcd_ex.h"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_pwr.h"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_pwr_ex.h"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_rcc.h"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_rcc_ex.h"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_rtc.h"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_rtc_ex.h"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_sd.h"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_smartcard.h"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_spi.h"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_spi_ex.h"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_sram.h"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_tim.h"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_tim_ex.h"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_uart.h"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_usart.h"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_wwdg.h"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_ll_fsmc.h"/>
+      <File Name="../../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_ll_sdmmc.h"/>
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <Settings Type="Static Library">
+    <GlobalSettings>
+      <Compiler Options="" C_Options="" Assembler="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="">
+        <LibraryPath Value="."/>
+      </Linker>
+      <ResourceCompiler Options=""/>
+    </GlobalSettings>
+    <Configuration Name="Debug" CompilerType="Launch Pad ( arm-none-eabi )" DebuggerType="GNU gdb debugger" Type="Static Library" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g;-Os;-Wall;-ggdb;-mcpu=cortex-m3;-mthumb;-mfloat-abi=soft;-ffunction-sections;-fdata-sections" C_Options="-g;-Os;-Wall;-ggdb;-mcpu=cortex-m3;-mthumb;-mfloat-abi=soft;-ffunction-sections;-fdata-sections" Assembler="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" PCHFlags="" PCHFlagsPolicy="0">
+        <IncludePath Value="../../Drivers/CMSIS/Include"/>
+        <IncludePath Value="../../Drivers/CMSIS/Device/ST/STM32L1xx/Include"/>
+        <IncludePath Value="../../Drivers/STM32L1xx_HAL_Driver/Inc"/>
+        <IncludePath Value="../../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy"/>
+        <IncludePath Value="../../Inc"/>
+        <Preprocessor Value="__weak=&quot;__attribute__((weak))&quot;"/>
+        <Preprocessor Value="__packed=&quot;__attribute__((__packed__))&quot;"/>
+        <Preprocessor Value="USE_HAL_DRIVER"/>
+        <Preprocessor Value="STM32L152xE"/>
+      </Compiler>
+      <Linker Options="" Required="yes"/>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="../../lib/$(ProjectName)d.a" IntermediateDirectory="./Debug" Command="" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes" IsGUIProgram="no" IsEnabled="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="" IsExtended="no">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName/>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no" EnableCpp14="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+    <Configuration Name="Release" CompilerType="FreddieChopin (arm-none-eabi)" DebuggerType="GNU gdb debugger" Type="Static Library" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="" C_Options="" Assembler="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" PCHFlags="" PCHFlagsPolicy="0">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="" Required="yes"/>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="../../lib/$(ProjectName).a" IntermediateDirectory="./Release" Command="" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes" IsGUIProgram="no" IsEnabled="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="" IsExtended="no">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName/>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no" EnableCpp14="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+  </Settings>
+</CodeLite_Project>
