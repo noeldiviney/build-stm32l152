@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CodeLite_Workspace Name="Stm32L1_Nucleo_FreeRTOS" Database="">
+<CodeLite_Workspace Name="stm32L152RETx-FreeRTOS" Database="">
   <Project Name="libStm32HAL" Path="libStm32HAL/libStm32HAL.project" Active="No"/>
-  <Project Name="App" Path="App/App.project" Active="Yes"/>
-  <Project Name="libFreeRTOS" Path="libFreeRTOS/libFreeRTOS.project"/>
+  <Project Name="libFreeRTOS" Path="libFreeRTOS/libFreeRTOS.project" Active="No"/>
+  <Project Name="stm32L152RETx-FreeRTOS" Path="stm32L152RETx-FreeRTOS/stm32L152RETx-FreeRTOS.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
       <Project Name="libStm32HAL" ConfigName="Debug"/>
-      <Project Name="App" ConfigName="Debug"/>
+      <Project Name="stm32L152RETx-FreeRTOS" ConfigName="Debug"/>
       <Project Name="libFreeRTOS" ConfigName="Debug"/>
+      <Project Name="stm32L152RETx-FreeRTOS" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
       <Project Name="libStm32HAL" ConfigName="Release"/>
-      <Project Name="App" ConfigName="Release"/>
+      <Project Name="stm32L152RETx-FreeRTOS" ConfigName="Release"/>
       <Project Name="libFreeRTOS" ConfigName="Release"/>
+      <Project Name="stm32L152RETx-FreeRTOS" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
