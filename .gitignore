@@ -1,0 +1,12 @@
+.build-debug/
+.codelite/
+Makefile
+libFreeRTOS/Debug/
+libFreeRTOS/libFreeRTOS.mk
+libFreeRTOS/libFreeRTOS.txt
+libStm32HAL/Debug/
+libStm32HAL/libStm32HAL.mk
+libStm32HAL/libStm32HAL.txt
+stm32L152RETx-FreeRTOS/Debug/
+stm32L152RETx-FreeRTOS/stm32L152RETx-FreeRTOS.mk
+stm32L152RETx-FreeRTOS/stm32L152RETx-FreeRTOS.txt
